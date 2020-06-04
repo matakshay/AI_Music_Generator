@@ -21,19 +21,46 @@ The dataset (contained in the /songs directory) consists of around 90 MIDI (Musi
 <h2 id="model">Model</h2>
     <div align="center">
     <figure>
-        <img src="summary.png"
-             alt="Model Summary">
-        <figcaption> Summary of the model </figcaption>
+        <img src="model_plot.png"
+             alt="Model Plot"
+             width=400>
+        <figcaption> A plot of the model and its layers </figcaption>
     </figure>
     </div>
     <p align="justify">
     I built an LSTM model using Keras Sequential API, which inputs sequences (of notes) of fixed length, and learns to predict the next note in the sequence. A summary of the model and a plot of its layers in given below -
     </p>
-    <div align="center">
-    <figure>
-        <img src="model_plot.png"
-             alt="Model Plot"
-             width = 400>
-        <figcaption> A plot of the model and its layers </figcaption>
-    </figure>
-    </div>
+    
+<h2 id="usage">Usage</h2>
+<ol>
+    <li>
+        Install all dependencies
+        <br>
+        <code> pip install python3 </code>
+        <br>
+        <code> pip install numpy </code>
+        <br>
+        <code> pip install tensorflow </code>
+        <br>
+        <code> pip install keras </code>
+        <br>
+        <code> pip install timidity </code>
+        <br>
+        <code> pip install pickle-mixin </code>
+        <br>
+        <code> pip install music21 </code>
+        <br>
+        <code> pip install glob2 </code>
+    </li>
+    <li>
+        Clone the repository to your system and head over to it <br>
+        <code> git clone https://github.com/matakshay/AI_Music_Generator</code> <br>
+        <code> cd AI_Music_Generator </code>
+    </li>
+    <li>
+        To listen to a music file - <br>
+        <code> cd songs </code> <br>
+        <code> timidity [filename] </code> <br>
+        Replace [filename] with complete name of file you wish to listen
+    </li>
+</ol>
