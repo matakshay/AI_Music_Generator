@@ -64,3 +64,16 @@ The dataset (contained in the /songs directory) consists of around 90 MIDI (Musi
         Replace [filename] with complete name of file you wish to listen
     </li>
 </ol>
+
+<h2 id="acknowledgement">Acknowledgement</h2>
+<p align="justify">
+I referred many articles, blogs and websites while building this project, some of them are mentioned below-
+</p>
+    <ul>
+        <li> https://colah.github.io/posts/2015-08-Understanding-LSTMs/ </li>
+        <li> https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5 </li>
+        <li>https://en.wikipedia.org/wiki/Musicology</li>
+        <li>https://en.wikipedia.org/wiki/Music_theory#Fundamentals_of_music</li>
+        <li>https://en.wikipedia.org/wiki/Elements_of_music</li>
+        <li>https://en.wikipedia.org/wiki/Definition_of_music</li>
+    </ul>
