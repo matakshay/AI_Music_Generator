@@ -31,6 +31,18 @@ The dataset (contained in the /songs directory) consists of around 90 MIDI (Musi
     I built an LSTM model using Keras Sequential API, which inputs sequences (of notes) of fixed length, and learns to predict the next note in the sequence. A summary of the model and a plot of its layers in given below -
     </p>
     
+<h2 id="frameworks">Frameworks, Libraries & Languages</h2>
+<ul>
+    <li> Keras </li>
+    <li> Tensorflow </li>
+    <li> Numpy </li>
+    <li> Python3 </li>
+    <li> timidity </li>
+    <li> pickle-mixin </li>
+    <li> glob </li>
+    <li> music21 </li>
+</ul>
+    
 <h2 id="usage">Usage</h2>
 <ol>
     <li>
