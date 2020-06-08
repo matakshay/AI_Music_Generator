@@ -18,6 +18,15 @@ An attempt along a similar philosophy can be made to train a neural network to g
 The dataset (contained in the /songs directory) consists of around 90 MIDI (Musical Instrument Digital Interface) audio files. Each of these files is a couple of minutes in duration and consists of piano music. Most of these files contain music from the Final Fantasy series of games, since the music is very distinct and has beautiful melodies. For playing the music of a file, follow the steps in <a href="#usage">Usage</a> section below.
 </p>
 
+<h2 id="musicology"> Music Theory </h2>
+<p align="justify">
+The Concise Oxford Dictionary defines music as "the art of combining vocal or instrumental sounds (or both) to produce beauty of form, harmony, and expression of emotion". In simpler terms, music can be thought of comprising of a basic element - Note. A note essentially represents the pitch of the music at that point in time. Notes are a discretization of musical phenomena, and are often regarded as the building blocks of music. Pitch can be roughly realised to be correlated with the frequency of the sound, but in essence is more of an abstract property, which depends on the perception of person hearing it. It is often represented with capital letters - A, B, C, D, E, F, G. These letter names can also be modified by using two accidentals - # (the shap sign, which raise a note by half-step) and ♭(the flat sign, which lowers it by half-step).
+<br>
+Each Note also has certain other characteristics namely - Offset (the length of time from the start of a piece when the note is played) and Duration (the time for which the note is held). If there are no periods of silence in the music and no occurrences of two notes being played together, then the offset of a note is effectively the sum of the previous durations.
+<br>
+A Chord in music, is a set of multiple notes ("pitches") that are heard sounding simultaneously. A piano normally contains many spans (or sets) of eight-white keys called an Octave.  
+</p>
+
 <h2 id="model">Model</h2>
     <div align="center">
     <figure>
