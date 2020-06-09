@@ -4,6 +4,17 @@
 This is a Deep Learning & Natural Language Processing model which can generate Piano Music
 </p>
 
+<h3> TABLE OF CONTENTS </h3>
+<ol type="I">
+    <li><a href="#intro"> Introduction </a></li>
+    <li><a href="#dataset"> Dataset </a></li>
+    <li><a href="#musicology"> Music Theory </a></li>
+    <li><a href="#model"> Model </a></li>
+    <li><a href="#frameworks"> Frameworks, Libraries & Languages </a></li>
+    <li><a href="#usage"> Usage </a></li>
+    <li><a href="#acknowledgement"> Acknowledgement </a></li>
+</ol>
+
 <h2 id="intro">Introduction</h2>
 <p align="justify">
 The usage of Neural Networks has been steadily increasing over time. With a multitude of papers being published every year on this subject, Deep Learning has found its applications in many fields of our daily lives - ranging from recommedation systems and personalization to medical diagnosis and healthcare. A recently popularised area of applying these techniques is for content generation.
