@@ -95,6 +95,14 @@ A Chord in music, is a set of multiple notes ("pitches") that are heard sounding
         <code> timidity [filename] </code> <br>
         Replace [filename] with complete name of file you wish to listen
     </li>
+    <li>
+        To generate piano music from a random sequence from the songs/ directory <br>
+        <code> python3 generate.py </code> <br>
+        This will create a MIDI music file named "output.midi" in the same directory. To listen to this, type <br>
+        <code> timidity output.midi </code>
+        <br> <br>
+        This step can be repeated any number of times, and at each iteration a random music file will be generated
+    </li>
 </ol>
 
 <h2 id="acknowledgement">Acknowledgement</h2>
