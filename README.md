@@ -17,9 +17,9 @@ This is a Deep Learning & Natural Language Processing model which can generate P
 
 <h2 id="intro">Introduction</h2>
 <p align="justify">
-The usage of Neural Networks has been steadily increasing over time. With a multitude of papers being published every year on this subject, Deep Learning has found its applications in many fields of our daily lives - ranging from recommedation systems and personalization to medical diagnosis and healthcare. A recently popularised area of applying these techniques is for content generation.
+The usage of Neural Networks has been steadily increasing over time. With a multitude of papers being published every year, Deep Learning has found its applications in many fields of our daily lives - ranging from recommedation systems and personalization to medical diagnosis and healthcare. A recently popularised area of applying these techniques is for content generation.
 <br>
-Text Generation, the most commonly seen form of this has become a ubiquitous feature in recent years. Auto-complete features in our message apps, emails and even Google searches is a common and helpful application of these methods. The model on the backend inputs and processes the few words typed by us and predicts the next most probable word from its vocabulary. The user has an option to use this word or continue typing, either of which further trains the algorithm as the model learns from the actual next word.
+Text Generation, the most commonly seen form of this has become a ubiquitous feature in recent years. Auto-complete features in our message apps, emails and even Google searches is a common and helpful application of this. The model on the backend inputs and processes the initial few words typed by us and predicts the next most probable word from its vocabulary. The user has an option to use this word or continue typing, either of which further trains the model as it learns from the actual next word.
 <br>
 An attempt along a similar philosophy can be made to train a neural network to generate music, and this is indeed becoming popular in recent years. Here I build a Long-Short Term Memory (LSTM) neural network in Python using Keras, to generate piano music.
 </p>
@@ -31,7 +31,7 @@ The dataset (contained in the /songs directory) consists of around 90 MIDI (Musi
 
 <h2 id="musicology"> Music Theory </h2>
 <p align="justify">
-The Concise Oxford Dictionary defines music as "the art of combining vocal or instrumental sounds (or both) to produce beauty of form, harmony, and expression of emotion". In simpler terms, music can be thought of comprising of a basic element - Note. A note essentially represents the pitch of the music at that point in time. Notes are a discretization of musical phenomena, and are often regarded as the building blocks of music. Pitch can be roughly realised to be correlated with the frequency of the sound, but in essence is more of an abstract property, which depends on the perception of person hearing it. It is often represented with capital letters - A, B, C, D, E, F, G. These letter names can also be modified by using two accidentals - # (the shap sign, which raise a note by half-step) and ♭(the flat sign, which lowers it by half-step).
+The Concise Oxford Dictionary defines music as "the art of combining vocal or instrumental sounds (or both) to produce beauty of form, harmony, and expression of emotion". In simpler terms, music can be thought of comprising of a basic element - Note. A note essentially represents the pitch of the music at that point in time. Notes are a discretization of musical phenomena, and are often regarded as the building blocks of music. Pitch can be roughly realised to be correlated with the frequency of the sound, but in essence is more of an abstract property, which depends on the perception of person hearing it. It is often represented with capital letters - A, B, C, D, E, F, G. These letter names can also be modified by using two accidentals - # (the shap sign, which raises a note by half-step) and ♭(the flat sign, which lowers it by half-step).
 <br>
 Each Note also has certain other characteristics namely - Offset (the length of time from the start of a piece when the note is played) and Duration (the time for which the note is held). If there are no periods of silence in the music and no occurrences of two notes being played together, then the offset of a note is effectively the sum of the previous durations.
 <br>
@@ -48,7 +48,7 @@ A Chord in music, is a set of multiple notes ("pitches") that are heard sounding
     </figure>
     </div>
     <p align="justify">
-    I built an LSTM model using Keras Sequential API, which inputs sequences (of notes) of fixed length, and learns to predict the next note in the sequence. A summary of the model and a plot of its layers in given below -
+    I built an LSTM model using Keras Sequential API, which inputs sequences (of notes) of fixed length, and learns to predict the next note in the sequence. A plot of the model layers is given above.
     </p>
     
 <h2 id="frameworks">Frameworks, Libraries & Languages</h2>
