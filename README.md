@@ -3,9 +3,9 @@
 <p align="center">
 <img src="https://img.shields.io/badge/made%20by%20-matakshay-blue">
 <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
-<img src="https://img.shields.io/badge/Pull%20Requests-welcome-brightgreen">
+<img src="https://img.shields.io/badge/contributions-welcome-brightgreen">
+<img src="https://img.shields.io/badge/python-v3.7%2B-orange" />
 <img src="https://img.shields.io/badge/tensorflow-2.1.0-yellow">
-<img src=https://img.shields.io/badge/keras-2.4.3-yellow>
 </p>
 
 <p align="justify">
@@ -89,8 +89,6 @@ A Chord in music, is a set of multiple notes ("pitches") that are heard sounding
         <code> pip install pickle-mixin </code>
         <br>
         <code> pip install music21 </code>
-        <br>
-        <code> pip install glob2 </code>
     </li>
     <li>
         Clone the repository to your system and head over to it <br>
