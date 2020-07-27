@@ -1,3 +1,10 @@
+<p align="center">
+<img src="music.png"
+    alt="music"
+    width=2000
+    height=200>
+</p>
+    
 <h1>AI Music Generator</h1>
 
 <p align="center">
