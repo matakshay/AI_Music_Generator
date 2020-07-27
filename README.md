@@ -122,11 +122,15 @@ A Chord in music, is a set of multiple notes ("pitches") that are heard sounding
 <p align="justify">
 I referred many articles, blogs and websites while building this project, some of them are mentioned below-
 </p>
-    <ul>
-        <li> https://colah.github.io/posts/2015-08-Understanding-LSTMs/ </li>
-        <li> https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5 </li>
-        <li>https://en.wikipedia.org/wiki/Musicology</li>
-        <li>https://en.wikipedia.org/wiki/Music_theory#Fundamentals_of_music</li>
-        <li>https://en.wikipedia.org/wiki/Elements_of_music</li>
-        <li>https://en.wikipedia.org/wiki/Definition_of_music</li>
-    </ul>
+<ul>
+    <li> https://colah.github.io/posts/2015-08-Understanding-LSTMs/ </li>
+    <li> https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5 </li>
+    <li>https://en.wikipedia.org/wiki/Musicology</li>
+    <li>https://en.wikipedia.org/wiki/Music_theory#Fundamentals_of_music</li>
+    <li>https://en.wikipedia.org/wiki/Elements_of_music</li>
+    <li>https://en.wikipedia.org/wiki/Definition_of_music</li>
+</ul>
+<p align="justify">
+The cover picture at the beginning of this document (just above the title) has been taken from <a href="https://emerj.com/ai-sector-overviews/musical-artificial-intelligence-6-applications-of-ai-for-audio/">here.</a>
+</p>
+    
